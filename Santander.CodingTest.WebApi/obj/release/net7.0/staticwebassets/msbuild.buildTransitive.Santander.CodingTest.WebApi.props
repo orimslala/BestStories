@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Santander.CodingTest.WebApi.props" />
+</Project>

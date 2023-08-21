@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nzrnEdDaWBAfJhh0PTncsQxWY2sr6UV5NCUFkfPhSjwmL1Q+Sj7hgQLXOwpjrKnP3Q85W0mI8EYZnP5H1wmXhA==",
+  "success": true,
+  "projectFilePath": "D:\\develop\\Interview\\BestStories\\Santander.CodingTest.Domain\\Santander.CodingTest.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\purpl\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\purpl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
