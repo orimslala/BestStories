@@ -7,6 +7,7 @@ dotnet build
 # Run app in release mode
 
 dotnet run --configuration debug
+
 dotnet run --configuration release
 
 Observations 
