@@ -18,7 +18,7 @@ dotnet run --configuration release
 then this wouldn't be an efficient way to do it.
 
 2. I would prefer to expose the list of best seller ids via an api endpoint and let the caller of the api dictate how he/she wants
-to use the api. This way you give the client side app can be flexible to choose what best works for it.
+to use the api. This way you give the client side some flexibility to choose what best works for it.
 
 3. Another option or rather in addition to 2) above is to use web sockets via signalr to publish to the end user a stream of best stories..so a pub/sub approach
 
