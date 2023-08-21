@@ -13,6 +13,10 @@ dotnet run --configuration debug
 #### release build
 dotnet run --configuration release
 
+
+![image](https://github.com/orimslala/BestStories/assets/41841151/abb4db8e-93ae-4b4b-b4c8-6063ff510e36)
+
+
 ### Observations 
 1. The way we handle the best stories can be improved. This works and is quite efficient but once we start making queries with high counts
 then this wouldn't be an efficient way to do it.
