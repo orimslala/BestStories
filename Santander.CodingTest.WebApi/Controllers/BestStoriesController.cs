@@ -22,7 +22,7 @@ public class BestStoriesController : ControllerBase
         return results.Any() ? Ok(results) : NoContent();
     }
 
-	[HttpGet("/item/{id}")]
+	[HttpGet("item/{id}")]
 	public async Task<IActionResult> GetStory(int id)
 	{
 		var story = await _mediator.Send(new GetStoryQuery(id));
