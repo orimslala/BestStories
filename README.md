@@ -2,7 +2,7 @@
 
 
 # Build app
-dotnet run --configuration debug
+dotnet build
 
 # Run app in release mode
 
