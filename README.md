@@ -1,21 +1,24 @@
 # BestStories
 
 
-# Build app
+## Build app
 dotnet build
 
-# Run app in release mode
+## Run app
 
+cd /Santander.CodingTest.WebApi
+
+#### debug build
 dotnet run --configuration debug
-
+#### release build
 dotnet run --configuration release
 
-Observations 
+### Observations 
 1. The way we handle the best stories can be improved. This works and is quite efficient but once we start making queries with high counts
-then this wouldln't be an efficient way to do it.
+then this wouldn't be an efficient way to do it.
 
-2. I would prefer to expose the list of best seller ids via an api endpoint and let the caller dictate how he/she wants
-to use the api.
+2. I would prefer to expose the list of best seller ids via an api endpoint and let the caller of the api dictate how he/she wants
+to use the api. This way you give the client side app can be flexible to choose what best works for it.
 
 3. Another option or rather in addition to 2) above is to use web sockets via signalr to publish to the end user a stream of best stories..so a pub/sub approach
 
