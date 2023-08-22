@@ -31,3 +31,5 @@ to use the api. This way you give the client side some flexibility to choose wha
 5. With more time i would have added unit tests. In order to get things working and i resorted to using postman and manual testing. With more time i would have added some unit tests using Moq library
 
 6. I would equally have been able to add health checks to the api as well - this is rather trivial to do.
+7. We should equally validate the request parameter 'count' so we can fail early. such logic can be done using fluent validation package
+
