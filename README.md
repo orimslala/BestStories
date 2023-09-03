@@ -32,4 +32,5 @@ to use the api. This way you give the client side some flexibility to choose wha
 
 6. I would equally have been able to add health checks to the api as well - this is rather trivial to do.
 7. We should equally validate the request parameter 'count' so we can fail early. such logic can be done using fluent validation package
+8. Perharps if we added pagination with a page and pageSize query params we could reduce the amount of payload we send in the api web reponses.
 
